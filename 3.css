@@ -1,0 +1,50 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    border: solid red 10px;
+    display: flex;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -50px;
+    top: 50%;
+    left: 50%;
+    border-left-color: transparent;
+    transition: transform .3s;
+    animation-name: circal;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+.name{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    background-color:white;
+    border: solid yellow 10px;
+    margin-left: -60px;
+    margin-top: -60px;
+    border-right-color: transparent;
+    transition: transform .3s;
+    top: 50%;
+    left: 50%;
+}
+@keyframes circal{
+    0%{
+        rotate: 90deg;
+        color: aqua;
+        background-color: chartreuse;
+    }
+    50%{
+        rotate: 180deg;
+        color: rgb(43, 52, 226);
+        background-color: aliceblue;
+    }
+    100%{
+        rotate: 360deg;
+        color: brown;
+        background-color: chocolate;
+    }
+}

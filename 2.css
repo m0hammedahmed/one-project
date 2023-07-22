@@ -1,0 +1,84 @@
+*{
+    text-decoration:none;
+}
+header{
+    background-color: rgb(193, 193, 236);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    align-items: center;
+    padding: 10px  350px 10px 100px ;
+}
+header .all{
+    width: 30%;
+    position: relative;
+}
+header .all .allspan{
+    width: 30px;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    margin-left: 280px;
+    position: relative;
+}
+header .all .allspan .fir{
+    width: 100%;
+    background-color: black;
+    margin: 2px;
+    height: 3px;
+}
+header .all .allspan .sec{
+    width: 50%;
+    background-color: black;
+    height: 3px;
+    margin: 2px;
+    transition: .3s;
+}
+header .all .allspan .thr{
+    width: 100%;
+    background-color: black;
+    height: 3px;
+    margin: 2px;
+}
+header .all .allspan:hover .sec{
+    width: 100%;
+}
+
+header .all .links{
+    background-color: aquamarine;
+    display: flex;
+    width: 80px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 190px;
+    position: absolute;
+    margin-top: 27px;
+    border-radius: 20px;
+    display: none;
+}
+header .all .links li{
+    text-decoration : none;
+    padding: 15px;
+    color: azure;
+    font-style: italic;
+}
+header .all .links .secon{
+    
+    padding: 15px;
+}
+header .all .links .therd{
+    
+    padding: 15px;
+}
+header .all::before{
+    content:  "";
+    border: solid 18px;
+    border-color: transparent transparent black  transparent;
+    position: absolute;
+    display: flex;
+    margin-left: 266px;
+    margin-top: 10px;
+}

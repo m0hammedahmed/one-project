@@ -1,0 +1,124 @@
+/* { */
+/* margin: 0%; */
+/* background-image:url(bg-01.jpg) ; */
+/* background-repeat: no-repeat; */
+/* background-size: 100%; */
+/* } */
+/* { */
+    /* color: darkturquoise; */
+    /* border: 20px 0px 0px 0px ; */
+    /* width: auto; */
+    /* text-align: center; */
+    /* margin: 60px 400px; */
+    /* background-color: brown; */
+/* } */
+/* { */
+    /* margin: 10px 0px; */
+/* width: 1200.%; */
+/* } */
+/* { */
+    /* text-align: center; */
+    /* border: 10ox; */
+    /* background-color: aliceblue; */
+    /* outline: 40px; */
+    /* border-style: auto; */
+    /* outline-style:auto; */
+    /* outline-width: 10px; */
+    /* outline-offset: 10px; */
+    /* font-weight: 700; */
+    /* font-size: open sans; */
+/* font-size: 50px; */
+/* } */
+/*  
+(font family ) !=  (typography )                          ==>   نوع الخط   
+font (size  style     transform  ) 
+font-weight  (100 : 900)
+margen==>  :0px 
+display  (block  != inline   !=  inline-block)
+visibility
+background  (color   image    repeat    attachment    position   size  ) 
+padding 
+text   ( color   shadow   alignment  spacing  transform  )
+outline 
+==>>>>>>>>>>>>>>>23
+cursor     بتخليك تخلى لالعنصر يمكن يتضغط عليه
+(float)     use with     (clear  بتستخدم كانها div or id and write in name )
+d    
+    background-color: aqua;  لزمن اللون كده
+    opacity: 0.7; 
+    position (absolute  - relative) 
+*/
+ /* { */
+    /* background-color: red; */
+    /* padding: 10px; */
+/* } */
+ /* div { */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* text-align: center; */
+    /* background-color: #eee; */
+    /* width: 50%; */
+    /* float: left; */
+    /* border: 10PX; */
+    /* outline: auto; */
+    /* outline-width: 10PX; */
+/* } */
+ /* { */
+    /* clear:both; */
+/* } */
+/* div{ */
+    /* position: absolute; */
+    /* height: 100px; */
+    /* width: 100px; */
+/*  */
+/* } */
+/* div.black{ */
+    /* top:  50px; */
+    /* right: 30px; */
+    /* background-color: black; */
+/* } */
+/* div.blue{ */
+    /* top: 35px; */
+    /* right: 60px; */
+    /* background-color: blue; */
+/* } */
+/* div.red{ */
+    /* top: 20px; */
+    /* right: 70px; */
+    /* background-color: red; */
+/* } */
+/* div.green{ */
+    /* top: 10px; */
+    /* right: 80px; */
+    /* background-color: green; */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
